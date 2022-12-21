@@ -288,7 +288,6 @@ function makeRackDroppable(){
 
 $(function () {
     //Load Game
-    $(".tile").draggable({ revert: "invalid" });
     loadBoardImages();
     loadTileImages();
     makeBoardImagesDroppable();
