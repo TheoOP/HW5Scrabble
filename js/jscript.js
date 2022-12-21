@@ -1,20 +1,20 @@
 var tileCounter = 1;
 function loadBoardImages(){
-    $(".double-word-square").append('<img id="double-word-image" class="board-images" src="/graphics_data/Scrabble_Board_Double_Word_Square.png"/>');
-    $(".empty-word-square").append('<img id="empty-square-image" class="board-images" src="/graphics_data/Scrabble_Board_Empty_Square.png"/>');
-    $(".double-letter-square").append('<img id="double-letter-image"  src="/graphics_data/Scrabble_Board_Double_Letter_Square.png"/>');
+    $(".double-word-square").append('<img id="double-word-image" class="board-images" src="./graphics_data/Scrabble_Board_Double_Word_Square.png"/>');
+    $(".empty-word-square").append('<img id="empty-square-image" class="board-images" src="./graphics_data/Scrabble_Board_Empty_Square.png"/>');
+    $(".double-letter-square").append('<img id="double-letter-image"  src="./graphics_data/Scrabble_Board_Double_Letter_Square.png"/>');
 }
 
 var startPos;
 
 var boardLine =  [ 
-  {"letterMultiplier": 1, "wordMultiplier": 2, "image": "/graphics_data/Scrabble_Board_Empty_Square.png"},
-  { "letterMultiplier": 1, "wordMultiplier": 2, "image": "/graphics_data/Scrabble_Board_Double_Word_Square.png"},
-  { "letterMultiplier": 1, "wordMultiplier": 1, "image": "/graphics_data/Scrabble_Board_Empty_Square.png"},
-  { "letterMultiplier": 2, "wordMultiplier": 1, "image": "/graphics_data/Scrabble_Board_Double_Letter_Square.png"},
-  { "letterMultiplier": 1, "wordMultiplier": 1, "image": "/graphics_data/Scrabble_Board_Empty_Square.png"},
-  { "letterMultiplier": 1, "wordMultiplier": 2, "image": "/graphics_data/Scrabble_Board_Double_Word_Square.png"},
-  { "letterMultiplier": 1, "wordMultiplier": 1, "image": "/graphics_data/Scrabble_Board_Empty_Square.png"}
+  {"letterMultiplier": 1, "wordMultiplier": 2, "image": "./graphics_data/Scrabble_Board_Empty_Square.png"},
+  { "letterMultiplier": 1, "wordMultiplier": 2, "image": "./graphics_data/Scrabble_Board_Double_Word_Square.png"},
+  { "letterMultiplier": 1, "wordMultiplier": 1, "image": "./graphics_data/Scrabble_Board_Empty_Square.png"},
+  { "letterMultiplier": 2, "wordMultiplier": 1, "image": "./graphics_data/Scrabble_Board_Double_Letter_Square.png"},
+  { "letterMultiplier": 1, "wordMultiplier": 1, "image": "./graphics_data/Scrabble_Board_Empty_Square.png"},
+  { "letterMultiplier": 1, "wordMultiplier": 2, "image": "./graphics_data/Scrabble_Board_Double_Word_Square.png"},
+  { "letterMultiplier": 1, "wordMultiplier": 1, "image": "./graphics_data/Scrabble_Board_Empty_Square.png"}
 
 ];
 
