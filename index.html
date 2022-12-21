@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScrabbleBoard</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+</head>
+<body>
+    <header> LET'S PLAY SCRABBLE </header>
+    <div id="board-row">
+        <div id="slot1" class="double-word-square">
+            
+        </div>
+        <div id="slot2" class="empty-word-square">
+            
+        </div>
+        <div id="slot3" class="empty-word-square">
+            
+        </div>
+        <div id="slot4" class="double-letter-square">
+            
+        </div>
+        <div id="slot5" class="empty-word-square">
+            
+        </div>
+        <div id="slot6" class="double-word-square">
+            
+        </div>
+        <div id="slot7" class="empty-word-square">
+            
+        </div>
+
+    </div>
+    <div class="tile">Tile 1</div>
+    <div id="table-container"></div>
+    <div id="rack">
+        <!-- <img src="" alt="rack-image"> -->
+        <div id="rack-tile-1" class="rack-tiles-container" ></div>
+        <div id="rack-tile-2" class="rack-tiles-container"></div>
+        <div id="rack-tile-3" class="rack-tiles-container"></div>
+        <div id="rack-tile-4" class="rack-tiles-container"></div>
+        <div id="rack-tile-5" class="rack-tiles-container"></div>
+        <div id="rack-tile-6" class="rack-tiles-container"></div>
+        <div id="rack-tile-7" class="rack-tiles-container"></div>
+    </div>
+    <div id="score-board">
+        <h1 id="score">Score: </h1>
+        <h1 id="current-word">Word: </h1>
+        <h1 id="remaining-tiles">Remaining Tiles: </h1>
+        <h1 id="high-score">High Score: </h1>
+    </div>
+     
+    <div id="buttons-container">
+        <button id="next-set-btn" class="button-1" onclick="nextWord()">Enter Word</button>
+        <button id="restart-btn" class="button-2" onclick="restartGame()">Restart</button>
+    </div>
+
+</body>
+<script src="./js/jscript.js">
+</script>
+</html>
