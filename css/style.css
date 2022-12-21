@@ -135,7 +135,7 @@ h1{
 }
 
 #rack{
-    background-image: url("/graphics_data/scrabble-tile-holder.png");
+    background-image: url("./graphics_data/scrabble-tile-holder.png");
     height: 100px; /* You must set a specified height */
     background-position: center; /* Center the image*/
     background-repeat: no-repeat; /* Do not repeat the image*/
