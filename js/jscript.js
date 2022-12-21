@@ -134,7 +134,7 @@ function nextTiles(){
     console.log(rand); 
     var tileLetter = curPieces[rand].letter;
 
-    $("#rack-tile-"+ tileCounter).append('<img id=rack-tiles-img-'+ tileLetter + ' class="rack-tiles-img ' + tileLetter + '" src="/graphics_data/Scrabble_Tiles/Scrabble_Tile_' + tileLetter+ '.jpg"/>');
+    $("#rack-tile-"+ tileCounter).append('<img id=rack-tiles-img-'+ tileLetter + ' class="rack-tiles-img ' + tileLetter + '" src="./graphics_data/Scrabble_Tiles/Scrabble_Tile_' + tileLetter+ '.jpg"/>');
     tileCounter++;
   }
 }
@@ -153,7 +153,7 @@ function loadTileImages(){
   var rand = getRandInt(0,curPieces.length-1);
   console.log(rand);
   var tileLetter = curPieces[rand].letter;
-  $("#rack-tile-"+ tileCounter).append('<img id=rack-tiles-img-'+ tileLetter + ' class="rack-tiles-img ' + tileLetter + '" src="/graphics_data/Scrabble_Tiles/Scrabble_Tile_' + tileLetter+ '.jpg"/>');
+  $("#rack-tile-"+ tileCounter).append('<img id=rack-tiles-img-'+ tileLetter + ' class="rack-tiles-img ' + tileLetter + '" src="./graphics_data/Scrabble_Tiles/Scrabble_Tile_' + tileLetter+ '.jpg"/>');
   tileCounter++;
   }
   $(".rack-tiles-img").draggable({
